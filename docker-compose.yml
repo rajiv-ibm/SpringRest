@@ -8,3 +8,15 @@ services:
     volumes:
       - /var/local/docker/volumes/mongo/data/db:/data/db
       - /var/local/docker/volumes/mongo/data/configdb:/data/configdb
+
+  springrest:
+    image: restapi
+    container_name: restapi
+    volumes:
+      - /logs/infra:/logs
+    ports:
+      - 8090:8090
+    environment:
+      - PROFILE = development
+    depends_on:
+      - mongo
