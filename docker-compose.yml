@@ -20,5 +20,21 @@ services:
       - PROFILE = development
     depends_on:
       - mongo
-
- 
+      
+  mysql:
+    image: mysql
+    container_name: mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - /var/local/docker/volumes/mysql/data:/var/lib/mysql
+      
+  gogs:
+   image: gogs/gogs
+   container_name: gogs
+   ports:
+    - 11012:3000
+   volumes: 
+    - /var/local/docker/volumes/gogs/repo:/data
+   depends_on:
+    - mysql 
