@@ -20,3 +20,5 @@ services:
       - PROFILE = development
     depends_on:
       - mongo
+
+ 

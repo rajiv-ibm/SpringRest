@@ -1,5 +1,6 @@
-hello\Application.class
-mongo\UserRepository.class
-hello\Greeting.class
-hello\GreetingController.class
-mongo\User.class
+user\model\Greeting.class
+user\controller\UserMgmtController.class
+user\model\User.class
+user\controller\GreetingController.class
+user\Application.class
+user\repo\UserRepository.class

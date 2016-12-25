@@ -1,5 +1,6 @@
-C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\mongo\UserRepository.java
-C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\mongo\User.java
-C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\hello\Greeting.java
-C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\hello\GreetingController.java
-C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\hello\Application.java
+C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\user\controller\GreetingController.java
+C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\user\controller\UserMgmtController.java
+C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\user\Application.java
+C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\user\repo\UserRepository.java
+C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\user\model\Greeting.java
+C:\Users\IBM_ADMIN\Documents\workspace-sts\SpringRest\src\main\java\user\model\User.java
